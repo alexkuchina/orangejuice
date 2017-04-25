@@ -144,6 +144,241 @@ footer {
 }
 
 
+@media (max-width: 1250px) {
+    .bodyimg {
+        width: 400px;
+    }
+
+    .textarea p{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    #orng, #blue {
+        width: 190px;
+    }
+}
+
+@media (max-width: 960px) {
+    .textarea p {
+    font-size: 30px;
+    }
+
+    .textarea {
+        left: 35px;
+    }
+
+    #orng, #blue {
+        width: 120px;
+        font-size: 12px;
+        height: 45px;
+    }
+
+    .buttons {
+        left: 20px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 862px) {
+    nav ul li {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    nav ul {
+        float: left;
+    }
+
+    .textarea {
+        width: 80%;
+        margin: 20px auto;
+        float: none;
+    }
+
+    nav ul li {
+        margin-right: 7px;
+        margin-left: 20px;
+    }
+
+    body {
+        background-image: url(../img/orangecopy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: : 1;
+        text-align: center;
+    }
+
+    .bodyimg {
+        visibility: hidden;
+        margin-left: 0;
+    }
+
+    .textarea p {
+        font-size: 50px;
+    }
+
+    .buttons {
+        float: none;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #orng, #blue {
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    form {
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    form input {
+        width: 90%;
+    }
+
+    form i {
+        right: 120px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 711px) {
+    nav ul li {
+        margin-right: 7px;
+        margin-left: 5px;
+    }
+
+    nav li a {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    nav img {
+        width: 60px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 7px;
+    }
+
+    .textarea p {
+        font-size: 40px;
+    }
+
+    .buttons {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 635px) {
+    .buttons {
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    #orng, #blue {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    #orng {
+        left: -20px;
+    }
+
+    #blue {
+        left: -20px;
+    }
+
+    .textarea p {
+        padding-right: 40px;
+        font-size: 38px;
+    }
+
+
+}
+
+@media (max-width: 521px) {
+    footer {
+        width: 100%;
+    }
+
+    .textarea p{
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .textarea {
+        top: -400px;
+    }
+
+    .buttons {
+        top: -400px;
+    }
+
+    nav li a {
+        font-size: 13px;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 459px) {
+    nav img {
+        display: none;
+    }
+
+    nav {
+        height: 250px;
+        text-align: center;
+        height: 250px;
+    }
+
+    nav ul {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 45px;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    form i {
+        right: 110px;
+        top: 100px;
+    }
+
+    nav ul li {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    form .fa {
+        display: none;
+    }
+
+    form input {
+        width: 95%;
+    }
+
+    .bodyimg {
+        width: 350px;
+    }
+}
+
+
 
 
 
